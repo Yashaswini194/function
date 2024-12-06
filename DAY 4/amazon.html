@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJv7n4+z6Rjfjz1HvhD5X2V6X+Xy9D5sRFFkw1k+dXM/xSxl8mJ8TgPCxdJr" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Amazon Clone</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop by Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Today's Deals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Prime</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Product Carousel -->
+<div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://via.placeholder.com/1500x500/FF5733/FFFFFF?text=Welcome+to+Amazon" class="d-block w-100" alt="Amazon Welcome">
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/1500x500/33FF57/FFFFFF?text=Shop+the+Latest+Deals" class="d-block w-100" alt="Shop the Latest Deals">
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/1500x500/3357FF/FFFFFF?text=Prime+Exclusive+Offers" class="d-block w-100" alt="Prime Exclusive Offers">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Product Categories Section -->
+<section class="container mt-5">
+    <h2 class="text-center">Shop by Categories</h2>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://via.placeholder.com/500x300?text=Electronics" class="card-img-top" alt="Electronics">
+                <div class="card-body">
+                    <h5 class="card-title">Electronics</h5>
+                    <p class="card-text">Shop the latest in electronics, from smartphones to gadgets.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://via.placeholder.com/500x300?text=Books" class="card-img-top" alt="Books">
+                <div class="card-body">
+                    <h5 class="card-title">Books</h5>
+                    <p class="card-text">Browse thousands of titles in every genre.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://via.placeholder.com/500x300?text=Clothing" class="card-img-top" alt="Clothing">
+                <div class="card-body">
+                    <h5 class="card-title">Clothing</h5>
+                    <p class="card-text">Find the best fashion trends and seasonal collections.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://via.placeholder.com/500x300?text=Home+Decor" class="card-img-top" alt="Home Decor">
+                <div class="card-body">
+                    <h5 class="card-title">Home Decor</h5>
+                    <p class="card-text">Enhance your living space with beautiful decor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 Amazon Clone. All rights reserved.</p>
+    <p>Amazon, Prime Video, and other services are trademarks of Amazon.com, Inc. or its affiliates.</p>
+</footer>
+
+<!-- Bootstrap 5 JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybB3vsjDpV7fuLO0vYz9fB6FpyvV5d2V6xTfJ9zCZSiMjti9p6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-5o8M2f8w8vtrE5Q0oNfE0X0lcl1syVveJTTuAYj8ZXgWx9WV/5fXhYVoHtUOXmgb" crossorigin="anonymous"></script>
+
+</body>
+</html>
